@@ -1963,6 +1963,7 @@ button {
     
     .cards__inner {
         padding-bottom: 0;
+        padding-top: 40px;
     }
 
     .cards__item {
@@ -2008,7 +2009,7 @@ button {
     }
 
     .practice__features-item-active {
-        background: url("../images/practice/practice-features_item-bg-mobile.png") no-repeat;
+        background: url("../images/practice/practice-features_item-bg-mobile.png") center no-repeat;
         background-size: 100% 135%;
         
     }
