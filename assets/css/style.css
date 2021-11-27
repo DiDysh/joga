@@ -315,16 +315,27 @@ button {
     margin: 85px 0 0 105px;
 }
 
+.features__item-link {
+    text-decoration: none;
+    color: #000;
+    transition: .2s linear;
+}
+
 .practice__features-item {
     padding-left: 30px;
     margin: -60px;
     width: 790px;
     height: 300px;
     transition: .2s linear;
+    cursor: pointer;
 }
 
 .practice__features-item:hover {
     background: url("../images/practice/practice-features_item-bg.png") bottom left no-repeat;
+}
+
+.practice__features-item:hover .features__item-link {
+    color: #0e534a;
 }
 
 .practice__features-title {
