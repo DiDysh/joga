@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Merienda+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Joga</title>
+</head>
+<body>
+<div class="page">
+
+
+
+
+
+<!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+             
+                <div class="logo logo__header">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="assets/images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                
+                <span id="trigger" class="trigger">
+                    <span class="trigger__line line-first"></span>
+                    <span class="trigger__line line-second"></span>
+                    <span class="trigger__line line-third"></span>
+                  </span>
+              
+                <nav class="menu">
+                    <ul class="menu__list" id="menu-list">
+                        <li class="menu__list-item">
+                            <a id="active-menu-link" class="menu__list-link menu__list-link-active" href="#">Home</a>
+                        </li>
+                        <div class="menu__list-unactive" onmouseover="changeActivity()" onmouseout="rechangeActivity()">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Explore</a>
+                        </li>
+                    
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Classes</a>
+                        </li>
+                    
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">About Us</a>
+                        </li>
+                    
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Privacy</a>
+                        </li>
+                    
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Services</a>
+                        </li>
+                    </div>
+                    </ul>
+                </nav>
+                
+
+            </div>
+        </div><!-- /container -->
+    </header>
+<main>
+
+  
+<!-- Intro -->
+<section class="intro">
+        <div class="intro__inner">
+            <h1 class="intro__title">Meditations Helps You <br>
+                 Detoxify Your Body</h1>
+            <p class="intro__text">
+                “It is a long established fact that a reader will be distracted by the readable content of a page when <br> looking at its layout point of using Lorem Ipsum is that it has a more-or-less.”
+            </p>
+            <button class="button">Get Start</button>
+            <img class="intro__img" src="assets/images/intro/intro-img.svg" alt="girl practising">
+        </div>
+</section>
+
+<!-- Cards -->
+<div class="cards">
+    <div class="container">
+        <div class="cards__inner">
+            <div class="cards__item cards__item--meditation">
+                <img class="cards__item__logo" src="assets/images/cards/ic_meditation.svg" alt="meditation logo">
+                <h3 class="cards__item-title">Meditation</h3>
+                <p class="cards__item-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <button class="button button--cards">Learn More</button>
+            </div>
+
+            <div class="cards__item cards__item--yoga">
+                <img class="cards__item__logo" src="assets/images/cards/ic_yoga.svg" alt="yoga logo">
+                <h3 class="cards__item-title">Yoga</h3>
+                <p class="cards__item-text"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <button class="button button--cards">Learn More</button>
+            </div>
+
+            <div class="cards__item cards__item--sound">
+                <img class="cards__item__logo" src="assets/images/cards/ic_sound.svg" alt="sound logo">
+                <h3 class="cards__item-title">Sound</h3>
+                <p class="cards__item-text"> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing.</p>
+                <button class="button button--cards">Learn More</button>
+            </div>
+        </div>
+    </div><!-- /container -->
+</div>
+
+<!-- Practice -->
+<section class="practice">
+        <div class="container">
+            <div class="practice__inner">
+            <h2 class="title">Practice Wherever You <br>
+                Want, Whenever You Need</h2>
+            <p class="title__text">“These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is <br>
+                untrammelled and when nothing prevents our being able to do what we like best.”</p>
+            <div class="practice__content">
+                <img class="practice__img" src="assets/images/practice/practice-img.png" alt="practice image"> 
+                <div class="practice__features">
+                        <div id="active-item" class="practice__features-item practice__features-item-active">
+                            <h3 class="practice__features-title practice__features-title--active">Meditation Wind</h3>
+                            <p class="practice__features-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected.</p>
+                        </div>
+                    
+                        <div class="practice__features-item" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            <h3 class="practice__features-title">Strees Reduction</h3>
+                            <p class="practice__features-text">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally can procure him some great pleasure.</p>
+                        </div>
+                    
+                        <div class="practice__features-item" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                            <h3 class="practice__features-title">Self Compassion</h3>
+                            <p class="practice__features-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+                        </div>
+                    
+                </div><!-- /practice__features -->
+            </div><!-- /practice__content -->
+        </div><!-- /practice__inner -->
+    </div><!-- /container -->
+</section>
+
+<!-- Playlist -->
+<section class="playlist">
+    <div class="container">
+        <div class="playlist__inner">
+            <h2 class="title">Take a Deep Breath</h2>
+            <p class="title__text">“Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia <br>
+                non numquam eius modi tempora incidunt ut labore.” </p>
+            <div class="playlist__content">
+                <div class="playlist__content-tracks">
+                    <div class="playlist__content-item">
+                        <div class="playlist__content-name">
+                            <h3 class="playlist__content-title">Turning off Auto Pilot</h3>
+                            <p class="playlist__content-subtitle">Intriduction, Strees Assesment</p>
+                        </div>
+                        <a class="musicstart" id="first-song">
+                            <img class="playlist__content-img" id="first-song-img" src="assets/images/playlist/button-play.svg" alt="play button">
+                        </a>
+                    </div>
+                    <div class="playlist__content-item">
+                        <div class="playlist__content-name">
+                            <h3 class="playlist__content-title">Crazy Wind Sound</h3>
+                            <p class="playlist__content-subtitle">Relax Mind</p>
+                        </div>
+                        <a class="musicstart" id="second-song">
+                            <img class="playlist__content-img" id="second-song-img" src="assets/images/playlist/button-play.svg" alt="play button">
+                        </a>
+                    </div>
+                    <div class="playlist__content-item">
+                        <div class="playlist__content-name">
+                            <h3 class="playlist__content-title">Mental Wellness</h3>
+                            <p class="playlist__content-subtitle">Strees Relief</p>
+                        </div>
+                        <a class="musicstart" id="third-song">
+                            <img class="playlist__content-img" id="third-song-img" src="assets/images/playlist/button-play.svg" alt="play button">
+                        </a>
+                    </div>
+                </div>
+                <img class="playlist__img" src="assets/images/playlist/playlist-img.svg" alt="playlist image">
+            </div>
+        </div><!-- /playlist__inner -->
+    </div><!-- /container -->
+</section>
+
+<!-- Options -->
+<section class="options">
+    <div class="container">
+        <div class="options__inner">
+            <h2 class="title">The Best Of Meditation</h2>
+            <p class="title__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>
+                dolore magna aliqua.”</p>
+            </div><!-- /options__inner -->
+        
+    </div><!-- /container -->
+    
+    <div class="options__content">
+
+        <div class="options__content-left-column">
+            <div class="options__item options__item--left">
+                <h3 class="options__title">The Peace</h3>
+                <p class="options__text">
+                which of us ever undertakes laborious physical exercise, except to obtain some advantage from it.
+                </p>
+            </div>
+
+            <div class="options__item options__item--left">
+                <h3 class="options__title">Strength Building</h3>
+                <p class="options__text">
+                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore.
+                </p>
+            </div>
+
+            <div class="options__item options__item--left">
+                <h3 class="options__title">Quick Relaxation</h3>
+                <p class="options__text">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+            </div>
+        </div>
+
+        <div class="options__content-right-column">
+            <div class="options__item options__item--right">
+                <h3 class="options__title">Relax & Refresh</h3>
+                <p class="options__text">
+                    The generated Lorem Ipsum is therefore always free from repetition, injected humour.
+                </p>
+            </div>
+
+            <div class="options__item options__item--right">
+                <h3 class="options__title">Beauty Of Body</h3>
+                <p class="options__text">
+                    Various versions have evolved over the years  sometimes by accident sometimes on purpose injected humour and the like.
+                </p>
+            </div>
+
+            <div class="options__item options__item--right">
+                <h3 class="options__title">Strees Relief</h3>
+                <p class="options__text">
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.
+                </p>
+            </div>
+        </div>    
+    </div><!-- /options__content -->
+
+</section>
+
+<!-- Types -->
+<section class="types">
+    <div class="container">
+        <div class="types__inner">
+            <h2 class="title">Transform Your Body, <br>
+                Mind and Life Today</h2>
+            <p class="title__text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum <br>
+                deleniti atque corrupti quos  sint occaecati cupiditate non provident.”</p>
+            
+            <div class="types__content">
+                <img src="assets/images/types/types-first-img.svg" alt="image" class="types__img types__img--first">
+                <div class="types__item types__item--first">
+                    <h3 class="types__title">Antistrees Meditation</h3>
+                     <p class="types__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected.
+                    </p>
+                    <p class="types__text types__text--second">These cases are perfectly simple and easy to distinguish. In a free hour when our power of choice is untrammelled.</p>
+                    <button class="button button--more">Learn More</button>
+                </div>
+            </div>
+
+            <div class="types__content types__content--second">
+                <div class="types__item types__item--second">
+                    <h3 class="types__title">Backyark Band Meditation</h3>
+                    <p class="types__text">To take a trivial example, which of us ever undertakes laborious physical exercise except to obtain some advantage from it...
+                    </p>
+                    <p class="types__text types__text--second">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                    </p>
+                    <button class="button button--more">Learn More</button>
+                </div>
+                <img src="assets/images/types/types-second-img.svg" alt="image" class="types__img types__img--second">
+            </div> 
+        </div><!-- /types__inner -->
+    </div><!-- /container -->
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="logo logo--footer">
+                <a class="logo__link" href="#">
+                    <img class="logo__img logo__img--footer" src="assets/images/logo.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-list-item">
+                        <a class="footer__nav-list-link" href="#">Home</a>
+                    </li>
+                    <li class="footer__nav-list-item">
+                        <a class="footer__nav-list-link" href="#">Explore</a>
+                    </li>
+                    <li class="footer__nav-list-item">
+                        <a class="footer__nav-list-link" href="#">Classes</a>
+                    </li>
+                    <li class="footer__nav-list-item">
+                        <a class="footer__nav-list-link" href="#">About Us</a>
+                    </li>
+                    <li class="footer__nav-list-item">
+                        <a class="footer__nav-list-link" href="#">Privacy</a>
+                    </li>
+                    <li class="footer__nav-list-item">
+                        <a class="footer__nav-list-link" href="#">Services</a>
+                    </li>
+                </ul>
+            </nav>    
+            <div class="footer__social">
+                <div class="footer__social-item">
+                    <a class="footer__social-link" href="https://www.facebook.com/" target="_blank">
+                        <img class="footer__social-img" src="assets/images/footer/ic_facebook.svg" alt="facebook link">
+                    </a>
+                </div>
+                <div class="footer__social-item">
+                    <a class="footer__social-link" href="https://www.instagram.com/" target="_blank">
+                        <img class="footer__social-img" src="assets/images/footer/ic_instagram.svg" alt="instagram link">
+                    </a>
+                </div>
+                <div class="footer__social-item">
+                    <a class="footer__social-link" href="https://twitter.com/" target="_blank">
+                        <img class="footer__social-img" src="assets/images/footer/ic_twitter.svg" alt="twitter link">
+                    </a>
+                </div>
+            </div>
+        </div><!-- /footer__inner -->
+    </div><!-- /container -->
+</footer>
+
+</main>
+</div><!-- /page -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
