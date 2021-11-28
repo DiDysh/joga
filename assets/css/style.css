@@ -1749,6 +1749,8 @@ button {
         height: 30%;
         padding: 12px 40px;
         margin: 0;
+        background: transparent;
+        background-size: 100% 135%;
     }
 
     .practice__features-item:hover {
