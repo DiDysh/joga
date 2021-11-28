@@ -1751,6 +1751,7 @@ button {
         margin: 0;
         background: transparent;
         background-size: 100% 135%;
+        transition: none;
     }
 
     .practice__features-item:hover {
