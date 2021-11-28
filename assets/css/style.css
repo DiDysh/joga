@@ -1995,7 +1995,7 @@ button {
         margin: 0;
         -webkit-transition: none;
         -o-transition: none;
-        transition: none;
+        transition: 0.5 linear;
     }
 
     .practice__features-item:hover {
